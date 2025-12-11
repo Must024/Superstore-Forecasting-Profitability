@@ -1,6 +1,6 @@
 # Superstore-Forecasting-Profitability
 **Superstore Sales Forecasting & Profitability Analysis**
-** 1. Project Purpose & Aims **
+1. Project Purpose & Aims 
 In the highly competitive retail sector, increasing revenue is often prioritized over maintaining healthy profit margins. The Superstore Sales Forecasting & Profitability Analysis project aims to provide a data-driven strategy to optimize both.
 
 The primary business problem addressed here is inconsistent profitability. While the Superstore generates significant sales, certain regions and product sub-categories are eroding margins through heavy discounting or operational inefficiencies.
@@ -15,7 +15,7 @@ Strategic Decision Support: Provide actionable insights to leadership regarding 
 
 By utilizing this analysis and the accompanying dashboard, business leaders can shift focus from "selling more" to "selling smarter," ensuring long-term sustainable growth.
 
-**  2. Project Workflow **
+  2. ## Project Workflow 
 The analysis followed a structured data science pipeline, ensuring consistency from initial processing through to final visualization.
 
 Data Ingestion & Cleaning:
@@ -42,7 +42,7 @@ Time Series Forecasting:
 
 Aggregated sales data to a monthly frequency.
 
-Prophet Modeling: Implemented Facebook Prophet to capture seasonality and trend changes.
+Prophet Modeling: Implemented Prophet to capture seasonality and trend changes.
 
 Model Evaluation: Compared models using RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and MAPE (Mean Absolute Percentage Error).
 
@@ -52,7 +52,7 @@ The original raw dataset (Sample - Superstore.csv) was connected directly to Tab
 
 Aggregations, calculations (like Profit Ratio), and visualizations were built entirely within the Tableau workbook, referencing the same source data as the Python notebook.
 
-📊 3. Findings & Insights
+ 3. ## Findings & Insights
 Based on the quantitative analysis within the notebook, the following critical insights were uncovered:
 
 Sales & Profit Trends
@@ -87,7 +87,7 @@ ARIMA MAPE: ~54.11%
 
 Prophet successfully captured the seasonal "heartbeat" of the sales data, whereas ARIMA struggled with the sharp seasonal variations.
 
-📈 4. Forecasting Results
+ 4. ## Forecasting Results
 The forecasting component utilized Facebook Prophet to predict sales for the next 12 months (2018–2019 horizon).
 
 Pattern: The forecast predicts a continued upward trajectory in sales volume.
@@ -100,7 +100,7 @@ Strategic Value: By trusting this forecast, the supply chain team can proactivel
 
 Sales Forecast (Next 12 Months):
 
-💡 5. Recommendations
+ 5. ## Recommendations
 Based on the data evidence, the following actions are recommended:
 
 Restructure the Furniture Strategy:
@@ -121,7 +121,7 @@ Operational Planning via Forecasts:
 
 Use the Prophet monthly forecast numbers to set sales targets and labor schedules. Ensure warehouses are fully staffed for the predicted Q4 surge.
 
-🛠️ 6. Tools & Technologies Used
+ 6. ## Tools & Technologies Used
 Python 3.12
 
 Pandas & NumPy: Data manipulation and aggregation.
@@ -136,7 +136,7 @@ Scikit-Learn: Calculation of evaluation metrics (MAE, MSE).
 
 Tableau: Interactive dashboarding and final visualization layer.
 
-📂 7. Repository Structure
+ 7. ## Repository Structure
 Plaintext
 
 ├── data/
@@ -150,7 +150,7 @@ Plaintext
 │   └── profitability_heatmap.png      # Region/Category heatmap (from Python)
 ├── README.md                          # Project documentation
 └── requirements.txt                   # Python dependencies
-🎨 8. Dashboard Description
+ 8. ## Dashboard Description
 The Tableau Dashboard serves as the executive summary, providing a concise, visual, and interactive summary of the Superstore's performance.
 
 Key Components & KPIs:
@@ -167,7 +167,7 @@ Interactive Filters: The dashboard allows users to filter by Year, Segment, and 
 
 The layout is designed for maximum clarity, allowing a viewer to understand regional and product health within seconds.
 
-📥 9. Instructions for Reproducing the Analysis
+ 9. ## Instructions for Reproducing the Analysis
 Clone the Repository:
 
 Bash
@@ -186,6 +186,6 @@ Bash
 jupyter notebook notebooks/Superstore_Analysis.ipynb
 View Dashboard:
 
-Open the tableau/Superstore_Dashboard.twbx file using Tableau Desktop or Tableau Public to view the interactive visualizations.
+Open the [tableau/Superstore_Dashboard.twbx](https://public.tableau.com/app/profile/mustopha.gafar/viz/SalesForcasting_17654615947100/Dashboard1?publish=yes) file using Tableau Desktop or Tableau Public to view the interactive visualizations.
 
-Author: [Your Name] Data Source: Sample Superstore Dataset
+Author: [Gafar Mustopha] Data Source: Sample Superstore Dataset
