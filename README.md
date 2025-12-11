@@ -1,6 +1,6 @@
 # Superstore-Forecasting-Profitability
 **Superstore Sales Forecasting & Profitability Analysis**
-1. Project Purpose & Aims
+** 1. Project Purpose & Aims **
 In the highly competitive retail sector, increasing revenue is often prioritized over maintaining healthy profit margins. The Superstore Sales Forecasting & Profitability Analysis project aims to provide a data-driven strategy to optimize both.
 
 The primary business problem addressed here is inconsistent profitability. While the Superstore generates significant sales, certain regions and product sub-categories are eroding margins through heavy discounting or operational inefficiencies.
@@ -15,7 +15,7 @@ Strategic Decision Support: Provide actionable insights to leadership regarding 
 
 By utilizing this analysis and the accompanying dashboard, business leaders can shift focus from "selling more" to "selling smarter," ensuring long-term sustainable growth.
 
-📘 2. Project Workflow
+**  2. Project Workflow **
 The analysis followed a structured data science pipeline, ensuring consistency from initial processing through to final visualization.
 
 Data Ingestion & Cleaning:
